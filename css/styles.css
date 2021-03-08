@@ -1,0 +1,27 @@
+/* Основной текст #000000 */
+/* Вторичный текст #757575*/
+/* Ссылка #212121 */
+/* Белый #ffffff */
+/* Акцент #2196f3 */
+/* Фон #eeeeee */
+/* Вторичный фон #e5e5e5 */
+
+/* global */
+body {
+  background-color: #eeeeee;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* index-global */
+
+/* portfolio */
