@@ -18,9 +18,9 @@
           <li><a href="" class="site-nav-link">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="auth-nav">
-        <li><a href="mailto:info@devstudio.com" class="auth-nav-link">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="auth-nav-link">+38 096 111 11 11</a></li>
+      <ul class="address">
+        <li><a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="address-link">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
@@ -38,7 +38,7 @@
       <!-- Особенности -->
       <section class="features">
         <h2 class="features-title">Особенности</h2>
-        <ul>
+        <ul class="features-list">
           <li>
             <h3 class="features-item-title">Внимание к деталям</h3>
             <p class="features-item-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -61,7 +61,7 @@
       <!-- Деятельность -->
       <section class="operation">
         <h2 class="operation-title">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="operation-list">
           <li>
             <img src="./images/about/box1.jpg" class="operation-img" alt="Процесс создания проекта." width="370" height="294" />
           </li>
@@ -77,7 +77,7 @@
       <!-- Наша команда -->
       <section class="team">
         <h2 class="team-title">Наша команда</h2>
-        <ul>
+        <ul class="team-list">
           <li>
             <img src="./images/photo/img1.jpg" class="team-img" alt="Дизайнер продукта" width="270" height="260" />
             <h3 class="team-name">Игорь Демьяненко</h3>
@@ -103,16 +103,20 @@
     </main>
 
     <footer>
-      <a href="./" class="logo"><span class="logo-color">Web</span>Studio</a>
-      <address>
-        <ul>
-          <li>
-            <a href="https://goo.gl/maps/fyFfX9XR5Mxzys699" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26 </a>
-          </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="bottom">
+        <a href="./" class="logo-bottom"><span class="logo-color">Web</span>Studio</a>
+        <address>
+          <ul class="contacts">
+            <li>
+              <a href="https://goo.gl/maps/fyFfX9XR5Mxzys699" class="contacts-adr" target="_blank" rel="noreferrer noopener"
+                >г. Киев, пр-т Леси Украинки, 26
+              </a>
+            </li>
+            <li><a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="contacts-link">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
