@@ -153,6 +153,10 @@ body {
   height: 50px;
 }
 
+.hero-button:hover {
+  cursor: pointer;
+}
+
 /* ---------features */
 .features-list {
   list-style: none;
@@ -269,7 +273,6 @@ body {
   height: 38px;
   background: var(--bgc);
   border-radius: 4px;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -277,7 +280,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-.buttons:hover,
+.buttons:hover {
+  cursor: pointer;
+  background: var(--accent);
+  color: white;
+}
 .buttons:focus {
   background: var(--accent);
   color: white;
