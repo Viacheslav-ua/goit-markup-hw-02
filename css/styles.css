@@ -3,9 +3,7 @@
   --basic-text: #212121;
   --secondary-text: #757575;
   --accent: #2196f3;
-  --bgc1: #eeeeee;
-  --bgc2: #e5e5e5;
-  --bgc3: #f5f4fa;
+  --bgc: #f5f4fa;
   --bgc-dark: #2f303a;
   --half-tone: rgba(255, 255, 255, 0.6);
 }
@@ -200,7 +198,7 @@ body {
 
 /* ---------team */
 .team {
-  background-color: var(--bgc3);
+  background-color: var(--bgc);
 }
 
 .team-title {
@@ -274,7 +272,7 @@ body {
 
 .buttons {
   height: 38px;
-  background: var(--bgc3);
+  background: var(--bgc);
   border-radius: 4px;
   font-style: normal;
   font-weight: 500;
