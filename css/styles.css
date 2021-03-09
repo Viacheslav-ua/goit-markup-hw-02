@@ -233,6 +233,14 @@ body {
 
 /* main-portfolio----------------------------------------- */
 /* --------------projects */
+
+.buttons-block,
+.projects-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .projects {
 }
 
