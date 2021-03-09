@@ -31,7 +31,7 @@ body {
 }
 
 .site-nav-link {
-  text-decoration: none;
+  font-style: normal;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -46,6 +46,7 @@ body {
 }
 
 .address-link {
+  font-style: normal;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -81,6 +82,7 @@ body {
 
 .logo-bottom {
   font-family: Raleway;
+  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -97,6 +99,7 @@ body {
 
 .contacts-adr {
   text-decoration: none;
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -111,6 +114,7 @@ body {
 
 .contacts-link {
   text-decoration: none;
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -144,7 +148,6 @@ body {
   line-height: 30px;
   /* display: flex; */
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: white;
   background: var(--accent);
@@ -270,4 +273,19 @@ body {
 }
 
 .buttons {
+  height: 38px;
+  background: var(--bgc3);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.buttons:hover,
+.buttons:focus {
+  background: var(--accent);
+  color: white;
 }
